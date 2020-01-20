@@ -24,17 +24,6 @@ void setup()
 //********** Loop *****************************************************************
 void loop()
 {
-  digitalWrite(led0, LOW);     
-  digitalWrite(led1, LOW);     
-  digitalWrite(led2, LOW);     
-  digitalWrite(led3, LOW);     
-  digitalWrite(led4, LOW);    
-  digitalWrite(led5, LOW);     
-  digitalWrite(led6, LOW);    
-  digitalWrite(led7, LOW);   
-
-  delay(delayA); 
-  
   digitalWrite(led0, HIGH);     
   digitalWrite(led1, LOW);    
   digitalWrite(led2, LOW);     
@@ -152,18 +141,9 @@ void loop()
   digitalWrite(led4, LOW);   
   digitalWrite(led5, LOW);    
   digitalWrite(led6, LOW);   
-  digitalWrite(led7, HIGH); 
-    delay(delayA);   
-
-  digitalWrite(led0, LOW);    
-  digitalWrite(led1, LOW);    
-  digitalWrite(led2, LOW);    
-  digitalWrite(led3, LOW);    
-  digitalWrite(led4, LOW);   
-  digitalWrite(led5, LOW);    
-  digitalWrite(led6, LOW);   
-  digitalWrite(led7, LOW); 
+  digitalWrite(led7, HIGH);   
   
     delay(delayA);               
   
           }
+© 2020 GitHub, Inc.
